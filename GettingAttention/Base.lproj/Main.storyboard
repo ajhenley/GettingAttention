@@ -49,46 +49,11 @@
                                     <action selector="doAlertInput:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nbn-40-VBa"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Lh-Ui-NVY">
-                                <rect key="frame" x="88" y="240" width="200" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Lights, Camera, Action Sheet"/>
-                                <connections>
-                                    <action selector="doActionSheet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Nn-5i-jNQ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0xp-Aq-vV7">
-                                <rect key="frame" x="149" y="369" width="77" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Play Sound"/>
-                                <connections>
-                                    <action selector="doSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MiJ-q7-dXD"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Tg-2D-wzP">
-                                <rect key="frame" x="130" y="422" width="114" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Play Alert Sound"/>
-                                <connections>
-                                    <action selector="doAlertSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QRy-No-KPe"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5YD-gV-dVn">
-                                <rect key="frame" x="138" y="480" width="100" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Vibrate Device"/>
-                                <connections>
-                                    <action selector="doVibration:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bm2-Ir-Tq1"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="doAlertSound" destination="9Tg-2D-wzP" id="Zmi-fL-qSy"/>
-                        <outlet property="doMultiButtonAlert" destination="Uqv-We-p0j" id="WhN-Oi-MV3"/>
-                        <outlet property="doVibration" destination="5YD-gV-dVn" id="HOc-SL-YZE"/>
                         <outlet property="userOutput" destination="hcM-hs-XZ8" id="eUt-2i-WHA"/>
                     </connections>
                 </viewController>
