@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3062D6E20DBF81000D08AAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3062D6D20DBF81000D08AAC /* AppDelegate.swift */; };
+		C3062D7020DBF81000D08AAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3062D6F20DBF81000D08AAC /* ViewController.swift */; };
+		C3062D7320DBF81000D08AAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3062D7120DBF81000D08AAC /* Main.storyboard */; };
+		C3062D7520DBF81000D08AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3062D7420DBF81000D08AAC /* Assets.xcassets */; };
+		C3062D7820DBF81000D08AAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3062D7620DBF81000D08AAC /* LaunchScreen.storyboard */; };
+		C3062D8320DBF81000D08AAC /* GettingAttentionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3062D8220DBF81000D08AAC /* GettingAttentionTests.swift */; };
+		C3062D8E20DBF81000D08AAC /* GettingAttentionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3062D8D20DBF81000D08AAC /* GettingAttentionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3062D7F20DBF81000D08AAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3062D6220DBF81000D08AAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3062D6920DBF81000D08AAC;
+			remoteInfo = GettingAttention;
+		};
+		C3062D8A20DBF81000D08AAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3062D6220DBF81000D08AAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3062D6920DBF81000D08AAC;
+			remoteInfo = GettingAttention;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3062D6A20DBF81000D08AAC /* GettingAttention.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GettingAttention.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3062D6D20DBF81000D08AAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3062D6F20DBF81000D08AAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3062D7220DBF81000D08AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3062D7420DBF81000D08AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3062D7720DBF81000D08AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3062D7920DBF81000D08AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3062D7E20DBF81000D08AAC /* GettingAttentionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GettingAttentionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3062D8220DBF81000D08AAC /* GettingAttentionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingAttentionTests.swift; sourceTree = "<group>"; };
+		C3062D8420DBF81000D08AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3062D8920DBF81000D08AAC /* GettingAttentionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GettingAttentionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3062D8D20DBF81000D08AAC /* GettingAttentionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingAttentionUITests.swift; sourceTree = "<group>"; };
+		C3062D8F20DBF81000D08AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3062D6720DBF81000D08AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3062D7B20DBF81000D08AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3062D8620DBF81000D08AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3062D6120DBF81000D08AAC = {
+			isa = PBXGroup;
+			children = (
+				C3062D6C20DBF81000D08AAC /* GettingAttention */,
+				C3062D8120DBF81000D08AAC /* GettingAttentionTests */,
+				C3062D8C20DBF81000D08AAC /* GettingAttentionUITests */,
+				C3062D6B20DBF81000D08AAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3062D6B20DBF81000D08AAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3062D6A20DBF81000D08AAC /* GettingAttention.app */,
+				C3062D7E20DBF81000D08AAC /* GettingAttentionTests.xctest */,
+				C3062D8920DBF81000D08AAC /* GettingAttentionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3062D6C20DBF81000D08AAC /* GettingAttention */ = {
+			isa = PBXGroup;
+			children = (
+				C3062D6D20DBF81000D08AAC /* AppDelegate.swift */,
+				C3062D6F20DBF81000D08AAC /* ViewController.swift */,
+				C3062D7120DBF81000D08AAC /* Main.storyboard */,
+				C3062D7420DBF81000D08AAC /* Assets.xcassets */,
+				C3062D7620DBF81000D08AAC /* LaunchScreen.storyboard */,
+				C3062D7920DBF81000D08AAC /* Info.plist */,
+			);
+			path = GettingAttention;
+			sourceTree = "<group>";
+		};
+		C3062D8120DBF81000D08AAC /* GettingAttentionTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3062D8220DBF81000D08AAC /* GettingAttentionTests.swift */,
+				C3062D8420DBF81000D08AAC /* Info.plist */,
+			);
+			path = GettingAttentionTests;
+			sourceTree = "<group>";
+		};
+		C3062D8C20DBF81000D08AAC /* GettingAttentionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3062D8D20DBF81000D08AAC /* GettingAttentionUITests.swift */,
+				C3062D8F20DBF81000D08AAC /* Info.plist */,
+			);
+			path = GettingAttentionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3062D6920DBF81000D08AAC /* GettingAttention */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3062D9220DBF81000D08AAC /* Build configuration list for PBXNativeTarget "GettingAttention" */;
+			buildPhases = (
+				C3062D6620DBF81000D08AAC /* Sources */,
+				C3062D6720DBF81000D08AAC /* Frameworks */,
+				C3062D6820DBF81000D08AAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GettingAttention;
+			productName = GettingAttention;
+			productReference = C3062D6A20DBF81000D08AAC /* GettingAttention.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3062D7D20DBF81000D08AAC /* GettingAttentionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3062D9520DBF81000D08AAC /* Build configuration list for PBXNativeTarget "GettingAttentionTests" */;
+			buildPhases = (
+				C3062D7A20DBF81000D08AAC /* Sources */,
+				C3062D7B20DBF81000D08AAC /* Frameworks */,
+				C3062D7C20DBF81000D08AAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3062D8020DBF81000D08AAC /* PBXTargetDependency */,
+			);
+			name = GettingAttentionTests;
+			productName = GettingAttentionTests;
+			productReference = C3062D7E20DBF81000D08AAC /* GettingAttentionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3062D8820DBF81000D08AAC /* GettingAttentionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3062D9820DBF81000D08AAC /* Build configuration list for PBXNativeTarget "GettingAttentionUITests" */;
+			buildPhases = (
+				C3062D8520DBF81000D08AAC /* Sources */,
+				C3062D8620DBF81000D08AAC /* Frameworks */,
+				C3062D8720DBF81000D08AAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3062D8B20DBF81000D08AAC /* PBXTargetDependency */,
+			);
+			name = GettingAttentionUITests;
+			productName = GettingAttentionUITests;
+			productReference = C3062D8920DBF81000D08AAC /* GettingAttentionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3062D6220DBF81000D08AAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Administrator;
+				TargetAttributes = {
+					C3062D6920DBF81000D08AAC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C3062D7D20DBF81000D08AAC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C3062D6920DBF81000D08AAC;
+					};
+					C3062D8820DBF81000D08AAC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C3062D6920DBF81000D08AAC;
+					};
+				};
+			};
+			buildConfigurationList = C3062D6520DBF81000D08AAC /* Build configuration list for PBXProject "GettingAttention" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3062D6120DBF81000D08AAC;
+			productRefGroup = C3062D6B20DBF81000D08AAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3062D6920DBF81000D08AAC /* GettingAttention */,
+				C3062D7D20DBF81000D08AAC /* GettingAttentionTests */,
+				C3062D8820DBF81000D08AAC /* GettingAttentionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3062D6820DBF81000D08AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3062D7820DBF81000D08AAC /* LaunchScreen.storyboard in Resources */,
+				C3062D7520DBF81000D08AAC /* Assets.xcassets in Resources */,
+				C3062D7320DBF81000D08AAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3062D7C20DBF81000D08AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3062D8720DBF81000D08AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3062D6620DBF81000D08AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3062D7020DBF81000D08AAC /* ViewController.swift in Sources */,
+				C3062D6E20DBF81000D08AAC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3062D7A20DBF81000D08AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3062D8320DBF81000D08AAC /* GettingAttentionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3062D8520DBF81000D08AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3062D8E20DBF81000D08AAC /* GettingAttentionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3062D8020DBF81000D08AAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3062D6920DBF81000D08AAC /* GettingAttention */;
+			targetProxy = C3062D7F20DBF81000D08AAC /* PBXContainerItemProxy */;
+		};
+		C3062D8B20DBF81000D08AAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3062D6920DBF81000D08AAC /* GettingAttention */;
+			targetProxy = C3062D8A20DBF81000D08AAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3062D7120DBF81000D08AAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3062D7220DBF81000D08AAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3062D7620DBF81000D08AAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3062D7720DBF81000D08AAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3062D9020DBF81000D08AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3062D9120DBF81000D08AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3062D9320DBF81000D08AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GettingAttention/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dudage.GettingAttention;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3062D9420DBF81000D08AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GettingAttention/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dudage.GettingAttention;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C3062D9620DBF81000D08AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GettingAttentionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dudage.GettingAttentionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GettingAttention.app/GettingAttention";
+			};
+			name = Debug;
+		};
+		C3062D9720DBF81000D08AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GettingAttentionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dudage.GettingAttentionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GettingAttention.app/GettingAttention";
+			};
+			name = Release;
+		};
+		C3062D9920DBF81000D08AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GettingAttentionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dudage.GettingAttentionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GettingAttention;
+			};
+			name = Debug;
+		};
+		C3062D9A20DBF81000D08AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GettingAttentionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dudage.GettingAttentionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GettingAttention;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3062D6520DBF81000D08AAC /* Build configuration list for PBXProject "GettingAttention" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3062D9020DBF81000D08AAC /* Debug */,
+				C3062D9120DBF81000D08AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3062D9220DBF81000D08AAC /* Build configuration list for PBXNativeTarget "GettingAttention" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3062D9320DBF81000D08AAC /* Debug */,
+				C3062D9420DBF81000D08AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3062D9520DBF81000D08AAC /* Build configuration list for PBXNativeTarget "GettingAttentionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3062D9620DBF81000D08AAC /* Debug */,
+				C3062D9720DBF81000D08AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3062D9820DBF81000D08AAC /* Build configuration list for PBXNativeTarget "GettingAttentionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3062D9920DBF81000D08AAC /* Debug */,
+				C3062D9A20DBF81000D08AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3062D6220DBF81000D08AAC /* Project object */;
+}
